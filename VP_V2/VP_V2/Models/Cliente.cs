@@ -25,7 +25,7 @@ namespace VP_V2.Models
         public string? Mail { get; set; }
         [DataType(DataType.Date)]
         public DateTime? Fecha_Baja { get; set; }
-        //public Localidad Localidad { get; set; }
+        public Localidade? Localidad { get; set; }
         //[ForeignKey("Usuario")]
         //public int UserId { get; set; }
         //public virtual Usuario Usuario { get; set; } = null!;

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using VP_V2.Data;
 
@@ -11,9 +12,11 @@ using VP_V2.Data;
 namespace VP_V2.Migrations
 {
     [DbContext(typeof(VP_DBcontext))]
-    partial class VP_DBcontextModelSnapshot : ModelSnapshot
+    [Migration("20230611225435_VP1002")]
+    partial class VP1002
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
