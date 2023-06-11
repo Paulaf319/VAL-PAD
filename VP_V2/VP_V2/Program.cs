@@ -1,7 +1,18 @@
+using Microsoft.EntityFrameworkCore;
+using VP_V2.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+var connectionString = builder.Configuration.GetConnectionString("VP_DB");
+if (connectionString != null)
+{
+
+    builder.Services.AddDbContext<VP_DBcontext>(options =>
+    options.UseSqlServer(connectionString));
+}
 
 var app = builder.Build();
 
