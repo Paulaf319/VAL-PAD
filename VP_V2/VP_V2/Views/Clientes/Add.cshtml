@@ -1,0 +1,32 @@
+﻿@model VP_V2.Models.ModelsView.AddCliente
+@{
+}
+<br />
+<h1>Crear Cliente</h1>
+<form method="post" action="Add" class="mt-5">
+  <div class="mb-3">
+    <label for="" class="form-label">Nombre</label>
+    <input type="text" class="form-control" asp-for="Nom">
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Apellido</label>
+    <input type="text" class="form-control" asp-for="Ape">
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">DNI</label>
+    <input type="number" class="form-control" asp-for="Dni">
+  </div>
+  <div class="mb-3">
+    <label for="" class="form-label">Codigo de Area Telefonico</label>
+    <input type="number" class="form-control" asp-for="Cod_Tel">
+  </div>
+   <div class="mb-3">
+    <label for="" class="form-label">Telefono</label>
+    <input type="number" class="form-control" asp-for="Tel">
+  </div>
+   <div class="mb-3">
+    <label for="" class="form-label">Mail</label>
+    <input type="text" class="form-control" asp-for="Mail">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>

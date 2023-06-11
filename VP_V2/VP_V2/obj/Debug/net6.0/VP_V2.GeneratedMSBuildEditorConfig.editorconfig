@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\pauff\source\repos\Final\VAL-PAD\VP_V2\VP_V2
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/pauff/source/repos/Final/VAL-PAD/VP_V2/VP_V2/Views/Clientes/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/pauff/source/repos/Final/VAL-PAD/VP_V2/VP_V2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
