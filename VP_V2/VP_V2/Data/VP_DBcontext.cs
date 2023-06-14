@@ -27,8 +27,6 @@ namespace VP_V2.Data
                 .HasOne(a => a.Provincia);
 
 
-           
-
 
 
 
