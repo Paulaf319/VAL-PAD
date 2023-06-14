@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-var connectionString = builder.Configuration.GetConnectionString("VP_DB");
+var connectionString = builder.Configuration.GetConnectionString("VP_V2");
 if (connectionString != null)
 {
 
